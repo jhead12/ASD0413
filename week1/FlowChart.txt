@@ -20,4 +20,4 @@ Poetry Page
 
 The premise of the app is to have a core foundation of poems from predetermined poet. The poems will have $this functions that will pull up a page with submitted inspirations. The inspirations will be from users of the social community.
 
-There will be a sign up page where people can connect using the 
+There will be a sign up page where people can connect using there facebook page
