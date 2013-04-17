@@ -1,0 +1,23 @@
+*****Flow Chart******
+Poetry Art App
+Music & Art - Inspiration as one.
+
+Home Page
+1. Page Loads
+	Full Screen Login 
+		- CLick to login- Demo_
+		A Menu of 4 Boxes that give you a choice of Art.
+		The 4 options are The 4 most resent Poems of the day.
+2. Depending on the Poem that was selected. A Graphic of Official Pic 
+	will be the selection pic. 
+	-With in the selction there will be a scrollable Recent poem
+
+
+Poetry Page
+1. Links to full page poems
+2 There are links within the poem of Photogramy/art that was inspired by the art.
+3. There will also be musically pieces that are inspired by the poems
+
+The premise of the app is to have a core foundation of poems from predetermined poet. The poems will have $this functions that will pull up a page with submitted inspirations. The inspirations will be from users of the social community.
+
+There will be a sign up page where people can connect using there facebook page
