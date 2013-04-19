@@ -1,0 +1,199 @@
+
+body {
+    background-color: white;
+    font-size: 100%;
+}
+#wrapper {
+    background-attachment: scroll;
+    margin: 0 auto;
+    width: 100%;
+}
+#content {
+}
+header {
+    text-align: center;
+}
+h1 {
+    
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+}
+
+
+
+li, h1 {
+    display: table;
+    font-size: 100%;
+    padding: 8px 0 0;
+    text-decoration: none;    
+}
+h3 {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+input {
+    font-size: 100%;
+<<<<<<< HEAD
+    height: inherit;
+    width: 100px;
+=======
+    height: inherit;
+>>>>>>> refs/remotes/origin/gh-pages
+}
+legend {
+    color: yellowgreen;
+}
+#buttons a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+fieldset {
+    background: none repeat scroll 0 0 ivory;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 100%;
+
+    margin: 0 auto;
+   
+}
+
+#fset{
+	padding: 20px;
+=======
+    margin: 0 auto;
+>>>>>>> refs/remotes/origin/gh-pages
+}
+#buttons {
+    border: 2px none;
+    text-align: center;
+}
+#wbutton {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    font-family: Comic Sans MS;
+    font-size: 100%;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+}
+#wbutton {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 19%;
+}
+input.range {
+    color: white;
+}
+textarea {
+    background-color: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 100%;
+    height: 150px;
+    resize: inherit;
+<<<<<<< HEAD
+    width: 100%;
+    padding-right:20px ;
+=======
+    width: 100%;
+>>>>>>> refs/remotes/origin/gh-pages
+}
+#submit {
+    background-image: -moz-linear-gradient(-90deg, white 0%, red 100%);
+    width: 100%;
+}
+#feature {
+    background-color: white;
+    background-image: url("../images/CTA-tit4tat.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 320px;
+    margin: 0 auto;
+    width: 100%;
+}
+.cta-btn {
+    height: 100%;
+    width: 100%;
+}
+.link {
+    color: black;
+    font-size: 36px;
+}
+.link a {
+    color: black;
+    float: right;
+    font-size: 36px;
+    margin: 190px 97px 3px 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ul.cat1 li {
+    background-origin: border-box;
+    font-size: 100%;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 70%;
+}
+.cat2 {
+    background-origin: border-box;
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+    width: 100%;
+}
+.ct-list {
+    color: green;
+    text-decoration: none;
+}
+footer {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+#categories ul {
+    text-align: center;
+    text-indent: inherit;
+}
+#navB {
+    -moz-appearance: statusbar;
+    color: blue;
+    text-decoration: none;
+}
+#select {
+    font-size: 80%;
+    text-align: center;
+}
+#search-bar{
+	padding-bottom:10px ;
+}
+footer{
+	background-color: black;
+	height: 30px;
+	
+}label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }#des1{
+	
+    background-image: url("../images/header.png");
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}.ui-content{color: brown;background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #00852B 51%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(51%,#00852B)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#00852B 51%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#00852B 51%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#00852B 51%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#00852B 51%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00852B',GradientType=0 ); /* IE6-9 */
+		
+}#para{
+		background: white;	padding: 10px;
+}.default{
+	font-size: small;	color: red;
+}#data{
+		background: green;		color: springgreen;
+}
