@@ -11,6 +11,7 @@
         <meta http-equiv="cleartype" content="on"><!-- StyleSheets under here -->
         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="style" charset="utf-8">
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" type="text/css"><!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
         <script src="js/libs/modernizr.custom.min.js" type="text/javascript">
 </script>
@@ -207,6 +208,11 @@
             <!-- Ad Page End -->
             <!-- Profile Page End -->
             <div data-role="content">
+                <ul data-role="listview" class="img">
+                    <li><a href="#"><img src="#" class="img" alt="#">item1</a></li>
+                    <li><a href="#">item2</a></li>
+                    <li><a href="#">item3</a></li>
+                </ul>
                 <!-- Content -->
                 <div id="data"></div>
             </div><!-- Content End -->
@@ -345,8 +351,9 @@
         <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript">
 </script><script src="js/libs/jquery.mobile-1.2.0/jquery.mobile-1.2.0.js" type="text/javascript">
 </script><script src="js/libs/jquery.validate.min.js" type="text/javascript">
-</script><script src="js/main.js" type="text/javascript">
 </script><script src="js/JSON.js" type="text/javascript">
+</script><script src="js/main.js" type="text/javascript">
+
 </script><!-- Body End -->
         <!-- Html End -->
         <!-- Ad page End -->
