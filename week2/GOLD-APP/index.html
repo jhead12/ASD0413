@@ -96,9 +96,13 @@
             <header data-role="header">
                 <h1>data</h1>
             </header><!-- /header -->
-            <article data-role="content">
+            <article data-role="content" >
                 <p>Content</p>
-                <div class="dat1"></div>
+                <div class="container">
+                    <p>Data!</p>
+                    <a href="#" data-role="button" class="edit"> Edit</a>
+                    <a href="#" data-role="button" class="delete"> Delete</a>
+                </div>
             </article><!-- /content -->
             <div data-role="footer" data-position="fixed" data-id="home2">
                 <div data-role="navbar">
@@ -169,8 +173,8 @@
                         <h1>
                             Gender
                         </h1>
-                        <div data-role="fieldcontain">
-                            <label for="male">Male:</label> <input type="radio" name="sex" value="male" id="male" checked> <label for="female">Female:</label> <input type="radio" name="sex" value="female" id="female">
+                        <div data-role="fieldcontain" class="radios">
+                            <label for="male">Male:</label> <input type="radio" name="sex" value="male" id="male" > <label for="female">Female:</label> <input type="radio" name="sex" value="female" id="female">
                         </div>
                         <div data-role="fieldcontain">
                             <label for="email">Your Email Address:</label> <input type="email" id="email" name="email"><span class="default">ex. yourEmail@email.com</span>
@@ -182,7 +186,7 @@
                             <h2>
                                 What Type of Marketer are you?
                             </h2>
-                            <div data-role="fieldcontain">
+                            <div data-role="fieldcontain" class="radios2">
                                 <label for="Advertiser">Advertiser:</label> <input type="radio" name="userType" value="Advertiser" id="Advertiser" checked> <label for="Publisher">Publisher:</label> <input type="radio" name="userType" value="Publisher" id="Publisher" class="required">
                             </div>
                         </div>
