@@ -1,0 +1,37 @@
+#home{
+	text-align: center;
+	background-image: url("../images/bg.png");
+
+}
+#home .ui-controlgroup{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 350px;
+}
+
+#home img{
+
+	width: 70%;
+	max-width: 400px;
+	border: #191919  3px;
+}
+
+p.ui-li-desc {
+font-size: 12px;
+font-weight: normal;
+display: block;
+margin: -.5em 0 .6em;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: pre-wrap;
+padding: 20px;
+font-size:large;
+}
+.imgS{
+
+	width: 64px;
+height: 64px;
+background: #ff0000;
+padding: 20px;
+}
