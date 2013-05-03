@@ -1,0 +1,14 @@
+function(doc){
+    if(doc._id.substr(0, 5) === "poet:" ){
+        emit(doc._id.substr(5), {
+            "city": doc.city,
+            "age": doc.age,
+            "birthDate": doc.birthDate,
+            "bio":doc.bio,
+            "pic": doc.pic,
+            
+            
+        });
+    }
+
+};

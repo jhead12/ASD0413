@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+	<title>Live Poetry</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="stylesheet" type="text/css" href="js/libs/jquery.mobile-1.3.0/jquery.mobile-1.3.0.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script type="text/javascript" src="js/libs/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.mobile-1.3.0/jquery.mobile-1.3.0.min.js"></script>
+	<script type="text/javascript" src="js/libs/parse.js"></script>
+
+	<script type="text/javascript" src="js/libs/couchdb.js"></script>
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+<body>
+<section data-role="page" id="home" data-title="Live Poetry Home" data-theme="d" >
+	
+	<article data-role="content" id="page1">
+
+
+		<img src="images/logo_03.jpg" alt="logo">
+		<div data-role="controlgroup">
+			<a href="#poems" data-icon="ic_poem" data-role="button">Poems</a>
+			<a href="#poets" data-icon="ic_poets" data-role="button"> The Poets</a>
+			<a href="#pics"   data-icon="ic_pics" data-role="button">Inspired Photos</a>
+			<a href="#music" data-icon="ic_music" data-role="button">Inspired Music</a>
+
+
+		</div>
+	
+	</article><!-- /content -->
+
+</section><!-- /page -->
+
+
+<section id="poems" data-role="page" >
+	<header data-role="header" data-id="head" data-theme="b">
+		<h1>Poems</h1>
+		<a href="#home" data-iconpos="notext" data-icon="home">home</a>
+		<a href="#addPoem" data-iconpos="notext" data-icon="edit" data-rel="dialog"></a>
+	</header><!-- /header -->
+
+	<article data-role="content">
+		<h1>Most Recent Poems</h1>
+		<ul data-role="listview" data-inset="true" class="plist1">
+			<li> Poem 1
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur obcaecati earum et neque inventore velit nostrum numquam dolorem autem vel deleniti cumque sapiente omnis dolores sit ipsum modi facilis provident nesciunt. Aliquam voluptatum distinctio cum asperiores est numquam ipsum voluptates at fugiat doloremque odit ea cupiditate maiores dolorem corporis doloribus modi vitae voluptatem alias quam consequatur architecto rerum in officiis ipsam culpa optio veniam officia nostrum molestiae fuga assumenda rem mollitia! Ipsum ducimus ut ullam mollitia nihil illo voluptatem saepe praesentium consequatur quo earum aspernatur reiciendis explicabo voluptate unde repellat eaque amet nostrum incidunt corporis natus hic iure nisi adipisci alias tempore harum tenetur qui magni cupiditate veniam doloribus reprehenderit ex est dolores eos non magnam. Non nemo earum accusantium debitis vel facilis nesciunt veniam ut sint minima esse minus officiis aspernatur natus praesentium unde harum a aut fugiat voluptas aliquam quidem maiores eligendi neque ducimus molestias fuga tempora cum sed eveniet vitae commodi fugit nisi est impedit quod vero! Placeat velit reprehenderit ducimus blanditiis atque vel corporis tempore repellat distinctio quod accusamus pariatur dignissimos ipsa consequatur aperiam maiores nostrum fugit quis? Ullam perferendis unde esse earum obcaecati animi iste eius facilis nam mollitia natus aperiam incidunt beatae omnis!
+						
+						
+	
+					</li>
+					<li><a href="#music">This Inspired This Music</a></li>
+					<li><a href="#pic">This inspired Photography</a></li>
+					<li><a href="#poems">Home</a></li>		
+				</ul></li><li> Poem 2
+				<ul>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis deserunt laborum optio ipsam dignissimos quasi mollitia quidem voluptas amet voluptatum odit rem ducimus dolor sapiente nostrum porro impedit ipsum et excepturi blanditiis temporibus natus nam omnis soluta similique qui a explicabo sequi iure illo. Magni quidem quod aperiam optio voluptatem mollitia expedita culpa repudiandae qui cum ab odio quisquam illum assumenda omnis corporis non officia similique vitae explicabo at dignissimos soluta sed alias doloremque dolorem saepe magnam laborum ratione ad aut sequi voluptates reprehenderit? Cupiditate at illo dolores recusandae deserunt perspiciatis excepturi minus ea nulla vitae illum odit perferendis voluptatem.
+						
+						
+	
+					</li>
+					<li><a href="#music">This Inspired This Music</a></li>
+					<li><a href="#pic">This inspired Photography</a></li>
+					<li><a href="#poems">Home</a></li>		
+				</ul></li>
+			
+
+		</ul>
+		
+	</article><!-- /content -->
+	<footer data-role="footer" data-position="fixed" data-id="foot" data-theme="b">
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#home" data-role="button" data-icon="home">home</a></li>
+			<li><a href="#pics" data-role="button" data-icon="arrow-r">pics</a></li>
+			<li><a href="#music" data-role="button" data-icon="arrow-r">Music</a></li>
+			</ul>
+		</div>
+			
+	
+	</footer><!-- /footer -->
+</section><!-- /page -->
+<section id="pics" data-role="page" data-theme="b">
+	<header data-role="header" data-id="head" data-theme="b">
+		<h1>Inspired Photos</h1>
+		<a href="#home" data-iconpos="notext" data-icon="home">home</a>
+	</header><!-- /header -->
+	<article data-role="content">
+		<div id="coming">
+			<h1>Coming Soon!</h1>
+		</div>
+
+	</article><!-- /content -->
+	<footer data-role="footer" data-position="fixed" data-id="foot" data-theme="b">
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#poets" data-role="button" data-icon="ic_poets">home</a></li>
+			<li><a href="#poems" data-role="button" data-icon="ic_poem">poems</a></li>
+			<li><a href="#music" data-role="button" data-icon="ic_music">Music</a></li>
+			</ul>
+		</div>
+			
+	
+	</footer><!-- /footer -->
+</section><!-- /page -->
+
+
+<section id="poets" data-role="page" >
+	<header data-role="header" data-theme="b">
+		<h1>poets</h1>
+		<a data-icon="home" data-iconpos="notext" href="#home"></a>
+		<a href="#signUp"  data-icon="edit" data-rel="dialog">Sign Up</a>
+	</header><!-- /header -->
+	<article data-role="content" >
+		<div data-role="controlgroup" data-type="horizontal">
+			<a href="#" id="clearAll" data-role="button">ClearAll</a>
+			
+			
+		</div>
+		<ul data-role="listview" class="plist">
+			<li>poet1<ul>
+				<li><h1>bio</h1>
+					<div class="imgS">Test</div>
+					<p>city</p>
+					<p>age</p>
+					<br/>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde fuga tempore illum architecto sunt necessitatibus nobis aliquid asperiores sapiente odio quibusdam magnam quisquam odit incidunt vitae obcaecati optio aperiam numquam.</p>
+		
+				 </li>
+				
+				<li><a href="#poets" data-role="button" data-theme="b">Back</a></li>
+			</ul></li>
+		<li>poet2<ul>
+				<li>bio </li>
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure doloribus quae similique adipisci veniam hic at ratione impedit expedita libero mollitia labore unde? </li>
+				<li><a href="#poets" data-role="button" data-theme="b">Back</a></li>
+			</ul></li>
+		
+		</ul>
+	</article><!-- /content -->
+	<footer data-role="footer" data-position="fixed" data-id="foot" data-theme="b">
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#home" data-role="button" data-icon="home">home</a></li>
+			<li><a href="#pics" data-role="button" data-icon="arrow-r">pics</a></li>
+			<li><a href="#music" data-role="button" data-icon="arrow-r">Music</a></li>
+			</ul>
+		</div>
+			
+	
+	</footer><!-- /footer -->
+</section><!-- /page -->
+<section id="music" data-role="page">
+	<header data-role="header">
+		<h1>music</h1>
+	</header><!-- /header -->
+	<article data-role="content">
+		<p>Content</p>
+	</article><!-- /content -->
+	<footer data-role="footer" data-position="fixed" data-id="foot" data-theme="b">
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#home" data-role="button" data-icon="home">home</a></li>
+			<li><a href="#pics" data-role="button" data-icon="arrow-r">pics</a></li>
+			<li><a href="#poems" data-role="button" data-icon="arrow-r">Poems</a></li>
+			</ul>
+		</div>
+			
+	
+	</footer><!-- /footer -->
+</section><!-- /page -->
+
+<section id="addPoem" data-role="page" data-theme="d">
+	<header data-role="header">
+		<h1>Poetry Submit</h1>
+	</header><!-- /header -->
+	<article data-role="content">
+		<h1>Write a Poem</h1>
+		<div data-role="fieldcontain">
+			<form action="#poems">
+			<fieldset data-role="controlgroup">
+				
+				<div data-role="fieldcontain">
+					<label for="_id">Poet Name:</label>
+					<input type="text" name="poet" id="_id" value="" />
+				</div>
+				<div data-role="fieldcontain">
+					<label for="Title">Title of Poem:</label>
+					<input type="text" name="Title" id="title" value="" />
+				</div>
+				<div data-role="fieldcontain">
+					<label for="poem">poem</label>
+					<textarea cols="50" rows="12" name="poem" id="poem"></textarea>
+				</div>
+				
+				<input type="submit" value="Submit" data-theme="b">
+    			<input type="reset" value="Reset">
+				
+			</fieldset>
+			</form>
+		</div>
+	</article><!-- /content -->
+	
+</section><!-- /page -->
+<section id="signUp" data-role="page" data-theme="c">
+	<header data-role="header" data-theme="e">
+		<h1>Poet Registration</h1>
+	</header><!-- /header -->
+	<article data-role="content">
+		<h1>Sign Up as a poet</h1>
+		<div id="errors"></div>
+		<form action="#poets" id="sign1">
+			<div data-role="fieldcontain">
+				<label for="nPoet">Name</label>
+				<input type="text" name="nPoet" id="nPoet" value="" />
+			</div>
+			<div data-role="fieldcontain">
+				<label for="pic_1" class="select">Choose Profile Pic:</label>
+				<select id="pic_1" name="pic_1" data-native-menu="false">
+					<option value="value1">option1</option>
+					<option value="value2">option2</option>
+					<option value="value3">option3</option>
+				</select>
+			</div>
+						<div data-role="fieldcontain">
+				<label for="age">Age</label>
+				<input type="number" data-clear-btn="true" name="age" id="age" value="" />
+			</div>
+			<div data-role="fieldcontain">
+				<label for="bday">BirthDay </label>
+     			<input type="date" data-clear-btn="true" name="bday" id="bday" value="">
+			</div>
+			<div data-role="fieldcontain">
+				<label for="nCity">city</label>
+				<input type="text" name="nCity" id="nCity" value="" />
+			</div>
+
+			<div data-role="fieldcontain">
+				<label for="bio">Write Brief Bio about you.</label>
+				<textarea cols="40" rows="8" name="bio" id="bio"></textarea>
+			</div>
+			<input type="submit" value="Submit" data-theme="e">
+    			<input type="reset" value="Reset" class="reset">
+			
+			
+
+				
+				
+		</form>
+	</article><!-- /content -->
+	
+</section><!-- /page -->
+</body>
+<!-- Scripts -->
+<script type="text/javascript" src="js/libs/validator.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>

@@ -1,0 +1,11 @@
+function(doc){
+	emit(doc._id, {
+	      "title": doc.title,
+	      "poet": doc.poet,
+	      "original_art": doc.original_art,
+	      "original_music": doc.original_music,
+	      "poem": doc.poem
+	
+	   });
+
+};

@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+/Users/jhead/Documents/FULLSAIL/ASD-2/couchDB/.metadata/.plugins/org.eclipse.jdt.core
