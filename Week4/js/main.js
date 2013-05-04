@@ -125,7 +125,7 @@ $('#poets').on('pageinit', function () {
              $('.db').on('click', function(data) {
                
                  console.log($('#id-1').data(data, 'rev'));
-                 
+
                 deletePoet();
             });
             $('.plist').listview('refresh');
@@ -136,9 +136,15 @@ $('#poets').on('pageinit', function () {
 
              $('#clearAll').click(function(key) {
                  // Act on the event
-                 confirm('Are you sure you want to Delete All Records?');
+                 var ask = confirm('Are you sure you want to Delete All Records?');
                  console.log(key);
-                deleteAll();
+                
+                 if (ask) {
+
+                    deleteAll();
+                 }
+
+                
 
             });
 
@@ -192,6 +198,7 @@ $('#addPoem').on('pageinit', function () {
             success: function (data) {
                 // body...
                 alert('Data Has been Stored!');
+                window.location.reload();
                 console.log(data);
             },
             error: function (data) {
